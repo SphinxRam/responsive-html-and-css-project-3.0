@@ -1,2 +1,2 @@
-test number 1 
-numc=ber 
+test number 1
+number

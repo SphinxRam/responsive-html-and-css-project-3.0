@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+.header__logo {
+  color: #fff;
+}
+.header__button__group__submit {
+  color: #000;
+  background-color: orange;
+  border: 0;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+.header__button__group__sign-in {
+  color: #fff;
+  background-color: #00b719;
+  border: 0;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8eaf6;
+  padding: 100px 0px;
+}
+.search__input {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding: 18px 20px;
+  max-width: 400px;
+  width: 400px;
+}
+.search__wrapper {
+  position: relative;
+  max-width: 400px;
+}
+.search__search__icon {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  font-size: 20px;
+}
+.search__input {
+  font-size: 20px;
+}
+.li {
+  list-style-type: none;
+}
+.faq__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 80px auto;
+}
+.faq__list-item {
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  min-height: 8rem;
+}
+.faq__card-title {
+  margin: 0;
+}
+.faq__card-link {
+  text-decoration: none;
+  color: #5c6bc0;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #182848 0%, #3c00bc 100%);
+  padding: 80px 0;
+  align-items: flex-start;
+}
+.footer__title {
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  gap: 10px;
+  display: block;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+li {
+  list-style-type: none;
+}
+.footer__link:hover {
+  opacity: 1;
+}
+.footer__container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.footer__group ul {
+  padding: 0;
+}
